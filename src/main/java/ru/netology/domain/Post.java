@@ -19,6 +19,79 @@ public class Post {
     private boolean isFavorite;
     private boolean postponedID;
 
+    private CommentsInfo commentsInfo;
+    private Like like;
+    private Location location;
+    private Place place;
+    private PostSou postSou;
+    private Repost repost;
+    private User user;
+    private View view;
+
+    public CommentsInfo getCommentsInfo() {
+        return commentsInfo;
+    }
+
+    public void setCommentsInfo(CommentsInfo commentsInfo) {
+        this.commentsInfo = commentsInfo;
+    }
+
+    public Like getLike() {
+        return like;
+    }
+
+    public void setLike(Like like) {
+        this.like = like;
+    }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public Place getPlace() {
+        return place;
+    }
+
+    public void setPlace(Place place) {
+        this.place = place;
+    }
+
+    public PostSou getPostSou() {
+        return postSou;
+    }
+
+    public void setPostSou(PostSou postSou) {
+        this.postSou = postSou;
+    }
+
+    public Repost getRepost() {
+        return repost;
+    }
+
+    public void setRepost(Repost repost) {
+        this.repost = repost;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public View getView() {
+        return view;
+    }
+
+    public void setView(View view) {
+        this.view = view;
+    }
+
     public int getPostID() {
         return postID;
     }
